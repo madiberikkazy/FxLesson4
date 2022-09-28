@@ -7,44 +7,38 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
-      xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1"
-      fx:controller="com.example.fxlesson33.LoginController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxlesson33.LoginController">
     <children>
-        <VBox>
+        <VBox maxWidth="1.7976931348623157E308">
             <children>
-                <Label alignment="BOTTOM_CENTER" contentDisplay="RIGHT" prefHeight="206.0" prefWidth="420.0"
-                       text="Login Page"/>
+                <Label alignment="BOTTOM_CENTER" contentDisplay="RIGHT" maxWidth="1.7976931348623157E308" prefHeight="206.0" prefWidth="420.0" text="Login Page" />
             </children>
         </VBox>
         <VBox prefHeight="200.0" prefWidth="100.0">
             <children>
                 <TextField fx:id="email" promptText="Enter email" text="madi">
                     <VBox.margin>
-                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                     </VBox.margin>
                 </TextField>
                 <PasswordField id="passwordTextField" fx:id="password" promptText="Enter password" text="123">
                     <VBox.margin>
-                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                     </VBox.margin>
                 </PasswordField>
-                <Label fx:id="corrected" alignment="BOTTOM_CENTER" contentDisplay="BOTTOM" prefHeight="18.0"
-                       prefWidth="428.0"/>
+                <Label fx:id="corrected" alignment="BOTTOM_CENTER" contentDisplay="BOTTOM" prefHeight="18.0" prefWidth="428.0" />
             </children>
         </VBox>
         <VBox prefHeight="200.0" prefWidth="100.0">
             <children>
-                <Button id="loginButton" fx:id="btn_login" mnemonicParsing="false" onAction="#loginButtonClicked"
-                        prefHeight="30.0" prefWidth="479.0" text="Login">
+                <Button id="loginButton" fx:id="btn_login" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#loginButtonClicked" prefHeight="30.0" prefWidth="10000.0" text="Login">
                     <VBox.margin>
-                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                     </VBox.margin>
                 </Button>
-                <Button id="registrationButton" fx:id="btn_register" mnemonicParsing="false"
-                        onAction="#registerButtonClicked" prefHeight="30.0" prefWidth="428.0" text="Registration">
+                <Button id="registrationButton" fx:id="btn_register" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#registerButtonClicked" prefHeight="30.0" prefWidth="1000.0" text="Registration">
                     <VBox.margin>
-                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                     </VBox.margin>
                 </Button>
             </children>

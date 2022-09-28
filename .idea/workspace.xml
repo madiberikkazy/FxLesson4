@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="116df084-d6ed-46db-95b3-83db13789a44" name="Changes" comment="" />
+    <list default="true" id="116df084-d6ed-46db-95b3-83db13789a44" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/Images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/Images/add1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/Images/dash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/Images/dash1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/Images/data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/Images/data1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/Images/exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/Images/menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/Images/menu1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/Images/report.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/Images/report1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fxlesson33/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fxlesson33/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fxlesson33/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fxlesson33/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fxlesson33/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fxlesson33/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fxlesson33/WelcomePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fxlesson33/WelcomePageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/fxlesson33/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/fxlesson33/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/fxlesson33/register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/fxlesson33/register.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/fxlesson33/welcome.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/fxlesson33/welcome.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -30,14 +50,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/admin/IdeaProjects/FxLesson33/src/main/resources/com/example/Images",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\IdeaProjects\FxLesson33\src\main\resources\com\example\Images" />
+      <recent name="C:\Users\admin\IdeaProjects\FxLesson33\src\main\resources\com\example\fxlesson33" />
+      <recent name="C:\Users\admin\IdeaProjects\FxLesson33\src\main\java\com\example\fxlesson33\Images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\IdeaProjects\FxLesson33\src\main\resources\com\example\Images" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

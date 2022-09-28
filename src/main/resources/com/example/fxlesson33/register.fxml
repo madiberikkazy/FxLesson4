@@ -8,67 +8,62 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
-      xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1"
-      fx:controller="com.example.fxlesson33.RegistrationController">
+<VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="420.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxlesson33.RegistrationController">
     <children>
-        <VBox>
+        <VBox maxWidth="1.7976931348623157E308">
             <children>
-                <Label alignment="BOTTOM_CENTER" contentDisplay="RIGHT" prefHeight="206.0" prefWidth="420.0"
-                       text="Registration Page"/>
+                <Label alignment="BOTTOM_CENTER" contentDisplay="RIGHT" maxWidth="1.7976931348623157E308" prefHeight="206.0" prefWidth="420.0" text="Registration Page" />
             </children>
         </VBox>
-        <VBox prefHeight="200.0" prefWidth="100.0">
+        <VBox maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="100.0">
             <children>
                 <TextField id="name" promptText="Enter name">
                     <VBox.margin>
-                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                     </VBox.margin>
                 </TextField>
                 <TextField id="surname" promptText="Enter surname">
                     <VBox.margin>
-                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                     </VBox.margin>
                 </TextField>
-                <ComboBox fx:id="combobox" prefHeight="26.0" prefWidth="438.0" promptText="Choose group">
+                <ComboBox fx:id="combobox" maxWidth="1.7976931348623157E308" prefHeight="26.0" prefWidth="438.0" promptText="Choose group">
                     <VBox.margin>
-                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                     </VBox.margin>
                 </ComboBox>
                 <PasswordField id="password" promptText="Enter password">
                     <VBox.margin>
-                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                     </VBox.margin>
                 </PasswordField>
-                <ComboBox fx:id="combobox2" prefHeight="26.0" prefWidth="453.0" promptText="Choose room">
+                <ComboBox fx:id="combobox2" maxWidth="1.7976931348623157E308" prefHeight="26.0" prefWidth="453.0" promptText="Choose room">
                     <VBox.margin>
-                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                     </VBox.margin>
                 </ComboBox>
                 <TextField id="email" promptText="Enter email">
                     <VBox.margin>
-                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                     </VBox.margin>
                 </TextField>
                 <TextField id="number" promptText="Enter number">
                     <VBox.margin>
-                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                     </VBox.margin>
                 </TextField>
             </children>
         </VBox>
-        <VBox prefHeight="200.0" prefWidth="100.0">
+        <VBox maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="100.0">
             <children>
-                <Button id="btn_regist" fx:id="btn_register" mnemonicParsing="false" onAction="#registernButtonClicked"
-                        prefHeight="30.0" prefWidth="428.0" text="Registration">
+                <Button id="btn_regist" fx:id="btn_register" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#registernButtonClicked" prefHeight="30.0" prefWidth="428.0" text="Registration">
                     <VBox.margin>
-                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                     </VBox.margin>
                 </Button>
-                <Button fx:id="btn_cancel" mnemonicParsing="false" onAction="#cancelrButtonClicked" prefHeight="30.0"
-                        prefWidth="428.0" text="Cancel">
+                <Button fx:id="btn_cancel" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#cancelrButtonClicked" prefHeight="30.0" prefWidth="428.0" text="Cancel">
                     <VBox.margin>
-                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                     </VBox.margin>
                 </Button>
             </children>

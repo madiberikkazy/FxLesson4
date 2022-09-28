@@ -48,7 +48,7 @@ public class RegistrationController implements Initializable {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader();
             fxmlLoader.setLocation(getClass().getResource("login.fxml"));
-            Scene scene = new Scene(fxmlLoader.load(), 313, 427);
+            Scene scene = new Scene(fxmlLoader.load(), 500, 500);
             Stage stage = new Stage();
             stage.setTitle("Registration form");
             stage.setScene(scene);

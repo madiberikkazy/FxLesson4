@@ -28,7 +28,7 @@ public class LoginController {
             try {
                 FXMLLoader fxmlLoader = new FXMLLoader();
                 fxmlLoader.setLocation(getClass().getResource("welcome.fxml"));
-                Scene scene = new Scene(fxmlLoader.load(), 313, 427);
+                Scene scene = new Scene(fxmlLoader.load(), 500, 500);
                 Stage stage = new Stage();
                 stage.setTitle("Welcome form");
                 stage.setScene(scene);
